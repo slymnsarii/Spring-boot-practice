@@ -3,7 +3,7 @@ package com.tpe.controller;
 import org.springframework.stereotype.Component;
 
 @Component
-public class StudentBean01 {
+public class StudentBean01 implements StudentInterface{
 
 	
 	
@@ -47,6 +47,12 @@ public class StudentBean01 {
 
 	public void setId(String id) {
 		this.id = id;
+	}
+
+	@Override
+	public String study() {
+		
+		return "Student01 class'indan geliyorum";
 	}
 	
 	

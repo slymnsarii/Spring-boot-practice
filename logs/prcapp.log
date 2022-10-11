@@ -1,72 +1,185 @@
-2022-10-10 17:42:58,017 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 8648 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
-2022-10-10 17:42:58,019 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
-2022-10-10 17:42:58,019 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
-2022-10-10 17:42:58,118 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-10-10 17:42:58,119 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-10-10 17:42:59,499 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f8559c95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-10-10 17:42:59,584 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2022-10-10 17:43:00,185 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
-2022-10-10 17:43:00,209 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
-2022-10-10 17:43:00,210 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-10 17:43:00,380 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
-2022-10-10 17:43:00,381 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2261 ms
-2022-10-10 17:43:01,018 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
-2022-10-10 17:43:01,087 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
-2022-10-10 17:43:01,112 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 4.524 seconds (JVM running for 6.117)
-2022-10-10 17:43:53,324 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-10 17:45:58,039 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:Application shutdown requested.
-2022-10-10 17:45:58,290 INFO  [RMI TCP Connection(2)-127.0.0.1] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
-2022-10-10 17:45:58,293 INFO  [RMI TCP Connection(2)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-10-10 18:00:12,662 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 14780 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
-2022-10-10 18:00:12,666 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
-2022-10-10 18:00:12,668 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
-2022-10-10 18:00:12,785 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-10-10 18:00:12,785 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-10-10 18:00:13,969 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4c6c5083] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-10-10 18:00:14,057 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2022-10-10 18:00:14,654 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
-2022-10-10 18:00:14,676 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
-2022-10-10 18:00:14,677 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-10 18:00:14,839 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
-2022-10-10 18:00:14,840 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2053 ms
-2022-10-10 18:00:14,983 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentBean01Controller' defined in file [C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes\com\tpe\controller\StudentBean01Controller.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tpe.controller.StudentBean01Controller]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	Return type for the method is missing
-	Syntax error, insert ")" to complete ConstructorDeclaration
-	Syntax error, insert ";" to complete ConstructorDeclaration
+2022-10-11 17:11:47,704 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 6624 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
+2022-10-11 17:11:47,722 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-11 17:11:47,724 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
+2022-10-11 17:11:48,152 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 17:11:48,153 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 17:11:55,584 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$fa0cddca] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-11 17:11:56,343 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-11 17:11:59,555 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+2022-10-11 17:11:59,702 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-10-11 17:11:59,705 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 17:12:00,297 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-10-11 17:12:00,298 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 12143 ms
+2022-10-11 17:12:02,314 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-10-11 17:12:02,769 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-11 17:12:02,836 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 18.783 seconds (JVM running for 24.394)
+2022-10-11 17:12:44,896 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 17:15:27,727 INFO  [RMI TCP Connection(13)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:Application shutdown requested.
+2022-10-11 17:15:28,468 INFO  [RMI TCP Connection(13)-127.0.0.1] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
+2022-10-11 17:15:28,472 INFO  [RMI TCP Connection(13)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-11 17:22:20,664 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 248 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
+2022-10-11 17:22:20,667 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-11 17:22:20,669 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
+2022-10-11 17:22:20,788 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 17:22:20,790 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 17:22:22,074 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f15b2fa7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-11 17:22:22,163 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-11 17:22:22,766 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+2022-10-11 17:22:22,789 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-10-11 17:22:22,790 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 17:22:22,974 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-10-11 17:22:22,974 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2181 ms
+2022-10-11 17:22:23,622 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-10-11 17:22:23,687 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-11 17:22:23,714 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 4.379 seconds (JVM running for 5.915)
+2022-10-11 17:22:45,198 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 17:26:04,680 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-11 17:26:04,917 INFO  [Thread-5] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
+2022-10-11 17:26:04,920 INFO  [Thread-5] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-11 17:26:05,160 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 248 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
+2022-10-11 17:26:05,161 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-11 17:26:05,161 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
+2022-10-11 17:26:05,617 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f15b2fa7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-11 17:26:05,622 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-11 17:26:05,729 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+2022-10-11 17:26:05,731 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-10-11 17:26:05,732 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 17:26:05,896 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-10-11 17:26:05,897 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 732 ms
+2022-10-11 17:26:06,186 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-10-11 17:26:06,209 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-11 17:26:06,221 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 1.133 seconds (JVM running for 228.421)
+2022-10-11 17:26:06,227 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:Condition evaluation unchanged
+2022-10-11 17:26:48,231 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-11 17:26:48,666 INFO  [Thread-7] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
+2022-10-11 17:26:48,812 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 248 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
+2022-10-11 17:26:48,812 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-11 17:26:48,813 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
+2022-10-11 17:26:49,239 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f15b2fa7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-11 17:26:49,250 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-11 17:26:49,378 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+2022-10-11 17:26:49,380 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-10-11 17:26:49,380 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 17:26:49,483 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-10-11 17:26:49,483 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 665 ms
+2022-10-11 17:26:49,689 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-10-11 17:26:49,708 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-11 17:26:49,717 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 0.969 seconds (JVM running for 271.917)
+2022-10-11 17:26:49,720 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:Condition evaluation unchanged
+2022-10-11 17:28:04,777 INFO  [RMI TCP Connection(20)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:Application shutdown requested.
+2022-10-11 17:28:05,086 INFO  [RMI TCP Connection(20)-127.0.0.1] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
+2022-10-11 17:33:52,068 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 15840 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
+2022-10-11 17:33:52,071 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-11 17:33:52,072 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
+2022-10-11 17:33:52,189 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 17:33:52,190 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 17:33:53,879 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$514e765c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-11 17:33:54,018 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-11 17:33:54,641 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+2022-10-11 17:33:54,662 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-10-11 17:33:54,662 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 17:33:54,860 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-10-11 17:33:54,861 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2669 ms
+2022-10-11 17:33:55,787 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-10-11 17:33:55,855 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-11 17:33:55,877 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 5.174 seconds (JVM running for 7.623)
+2022-10-11 17:34:03,377 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-11 17:35:11,216 INFO  [RMI TCP Connection(8)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:Application shutdown requested.
+2022-10-11 17:35:11,468 INFO  [RMI TCP Connection(8)-127.0.0.1] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
+2022-10-11 17:35:11,472 INFO  [RMI TCP Connection(8)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-11 17:59:44,224 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 6068 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
+2022-10-11 17:59:44,226 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-11 17:59:44,227 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
+2022-10-11 17:59:44,367 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 17:59:44,367 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 17:59:45,859 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$265b3cfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-11 17:59:45,960 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-11 17:59:46,576 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+2022-10-11 17:59:46,595 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-10-11 17:59:46,595 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 17:59:46,792 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-10-11 17:59:46,792 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2424 ms
+2022-10-11 17:59:47,082 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext:Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentBean03Controller': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tpe.controller.StudentBean03Controller] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1f0f97ff]
+2022-10-11 17:59:47,087 INFO  [restartedMain] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
+2022-10-11 17:59:47,122 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener:
 
-2022-10-10 18:00:14,995 INFO  [restartedMain] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
-2022-10-10 18:05:21,848 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 14124 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
-2022-10-10 18:05:21,876 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
-2022-10-10 18:05:21,878 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
-2022-10-10 18:05:21,996 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-10-10 18:05:21,996 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-10-10 18:05:23,194 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$99b2be1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-10-10 18:05:23,286 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2022-10-10 18:05:23,804 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
-2022-10-10 18:05:23,824 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
-2022-10-10 18:05:23,825 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-10 18:05:24,014 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
-2022-10-10 18:05:24,014 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2016 ms
-2022-10-10 18:05:24,636 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
-2022-10-10 18:05:24,700 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
-2022-10-10 18:05:24,720 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 4.131 seconds (JVM running for 5.542)
-2022-10-10 18:05:40,403 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-10-10 18:05:47,601 INFO  [RMI TCP Connection(2)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:Application shutdown requested.
-2022-10-10 18:05:47,839 INFO  [RMI TCP Connection(2)-127.0.0.1] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
-2022-10-10 18:05:47,842 INFO  [RMI TCP Connection(2)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Destroying Spring FrameworkServlet 'dispatcherServlet'
-2022-10-10 18:16:40,424 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 3480 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
-2022-10-10 18:16:40,428 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
-2022-10-10 18:16:40,429 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
-2022-10-10 18:16:40,587 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-10-10 18:16:40,588 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-10-10 18:16:41,810 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5c4739db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2022-10-10 18:16:41,900 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2022-10-10 18:16:42,446 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
-2022-10-10 18:16:42,468 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
-2022-10-10 18:16:42,469 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-10-10 18:16:42,630 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
-2022-10-10 18:16:42,632 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 2042 ms
-2022-10-10 18:16:43,244 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
-2022-10-10 18:16:43,304 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
-2022-10-10 18:16:43,326 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 3.996 seconds (JVM running for 6.083)
-2022-10-10 18:16:55,736 INFO  [http-nio-8082-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring DispatcherServlet 'dispatcherServlet'
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-11 17:59:47,227 ERROR [restartedMain] org.springframework.boot.SpringApplication:Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'studentBean03Controller': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.tpe.controller.StudentBean03Controller] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1f0f97ff]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.tpe.SpringBootPrcApplication.main(SpringBootPrcApplication.java:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.tpe.controller.StudentBean03Controller] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@1f0f97ff]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: StudentBean03
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3166)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2309)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: StudentBean03
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 29 common frames omitted
+2022-10-11 18:02:05,002 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 5960 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
+2022-10-11 18:02:05,004 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-11 18:02:05,005 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
+2022-10-11 18:02:05,144 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-11 18:02:05,146 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor:For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-11 18:02:06,781 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$3c38bbab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-11 18:02:06,928 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-11 18:02:07,914 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+2022-10-11 18:02:07,945 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-10-11 18:02:07,946 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 18:02:08,417 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-10-11 18:02:08,417 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 3269 ms
+2022-10-11 18:02:09,183 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-10-11 18:02:09,250 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-11 18:02:09,293 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 5.577 seconds (JVM running for 7.362)
+2022-10-11 18:05:49,608 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-11 18:05:49,848 INFO  [Thread-5] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
+2022-10-11 18:05:50,051 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Starting SpringBootPrcApplication using Java 11.0.9 on DESKTOP-VH4NOC8 with PID 5960 (C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc\target\classes started by Hp in C:\Users\Hp\Documents\workspace-spring-tool-suite-4-4.15.3.RELEASE\spring-boot-prc)
+2022-10-11 18:05:50,052 DEBUG [restartedMain] com.tpe.SpringBootPrcApplication:Running with Spring Boot v2.7.4, Spring v5.3.23
+2022-10-11 18:05:50,052 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:No active profile set, falling back to 1 default profile: "default"
+2022-10-11 18:05:50,458 INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$3c38bbab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-10-11 18:05:50,461 INFO  [restartedMain] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping:Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-10-11 18:05:50,542 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat initialized with port(s): 8082 (http)
+2022-10-11 18:05:50,544 INFO  [restartedMain] org.apache.catalina.core.StandardService:Starting service [Tomcat]
+2022-10-11 18:05:50,544 INFO  [restartedMain] org.apache.catalina.core.StandardEngine:Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-11 18:05:50,690 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:Initializing Spring embedded WebApplicationContext
+2022-10-11 18:05:50,690 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:Root WebApplicationContext: initialization completed in 631 ms
+2022-10-11 18:05:50,907 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:LiveReload server is running on port 35729
+2022-10-11 18:05:51,012 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer:Tomcat started on port(s): 8082 (http) with context path ''
+2022-10-11 18:05:51,045 INFO  [restartedMain] com.tpe.SpringBootPrcApplication:Started SpringBootPrcApplication in 1.097 seconds (JVM running for 229.114)
+2022-10-11 18:05:51,050 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:Condition evaluation unchanged
+2022-10-11 18:06:01,546 INFO  [RMI TCP Connection(12)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:Application shutdown requested.
+2022-10-11 18:06:01,782 INFO  [RMI TCP Connection(12)-127.0.0.1] org.apache.catalina.core.StandardService:Stopping service [Tomcat]
